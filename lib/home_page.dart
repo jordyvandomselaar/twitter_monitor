@@ -13,9 +13,10 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             Text("Welcome to Twitter Monitor!"),
             Text("Please login to get started."),
-            RaisedButton(child: Text("Login"), onPressed: () {
-
-            },)
+            RaisedButton(
+              child: Text("Login"),
+              onPressed: () {},
+            )
           ],
         ),
       ),
